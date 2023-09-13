@@ -1,0 +1,200 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(108, 24, 24);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.header {
+    align-items: center;
+    position: relative;
+
+}
+
+.menubar {
+    display: flex;
+}
+
+.logo {
+    align-items: center;
+    margin-left: 95px;
+}
+
+.namecafe {
+    align-items: center;
+    padding: 80px 30px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+
+.item {
+    align-items: center;
+    margin: 20px;
+}
+
+.login {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    margin-left: 230px;
+
+}
+
+.itemlogin2 {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(108, 24, 24);
+    color: white;
+    border-radius: 30px;
+    height: 30px;
+}
+
+.content {
+    margin: 10px 130px;
+    margin-right: 60%;
+    line-height: 40px;
+
+}
+
+.content1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-right: 300px;
+    line-height: 40px;
+}
+
+.content3 {
+    line-height: 20px;
+}
+
+.img2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    max-width: 550px;
+}
+
+.contain {
+    position: relative;
+    align-items: center;
+    margin: 80px 0px;
+}
+
+.coffe {
+    text-align: center;
+    line-height: 30px;
+    padding-top: 2px;
+}
+
+.bg {
+    top: 0;
+    width: 1300px;
+    position: absolute;
+}
+
+.cafe {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 50px;
+    z-index: 1;
+    text-decoration: underline rgb(234, 190, 90) solid;
+    margin-top: 70px;
+}
+
+.cnt5 {
+    font-weight: 600;
+}
+.box {
+    display: flex;
+    justify-content: 30px; /* Cân bằng khoảng cách giữa các .box con */
+    margin-bottom: 100px;
+    padding-top: 25px;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.box1, .box2, .box3 {
+    flex: 1; /* Chia không gian ngang bằng nhau cho các .box con */
+    border-radius: 25px;
+    margin: 25px;
+    width: 10px;
+    height: 380px;
+}
+
+.box1 {
+    background: linear-gradient(202.65deg, #F6C7C5 4.72%, #C27D7A 102.83%);
+    position: relative;
+}
+.drink1{
+    position: absolute; 
+    top: 30px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    max-width: 100%
+}
+.cost1 {
+    text-align: center;
+    margin-top: 180px;
+    color: white;
+
+}
+.namedrink1{
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.nd{
+    text-align: center;
+    padding-top:18px;
+    line-height: 18px;
+    color: white;
+    
+}
+.box2 {
+    background: linear-gradient(202.65deg, rgba(250, 250, 250, 0.95) 4.72%, rgba(84, 21, 17, 0.58) 102.83%);
+    position: relative;
+}
+.drink2 {
+    position: absolute; 
+    top: 30px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    max-width: 100%
+}
+
+.box3 {
+    background: linear-gradient(202.65deg, rgba(10, 9, 9, 0.95) 4.72%, rgba(84, 21, 17, 0.95) 102.83%);
+    position: relative;
+}
+.drink3 {
+    position: absolute; 
+    top: 30px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    max-width: 100%
+}
